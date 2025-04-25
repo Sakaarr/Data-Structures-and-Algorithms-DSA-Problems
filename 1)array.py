@@ -25,7 +25,8 @@ num_map = {}  # value -> index
 
 for i, num in enumerate(nums):
     complement = target - num
-    print(complement)
+    # print(complement)
+    print(num_map)
     if complement in num_map:
         print([num_map[complement], i])
         break
